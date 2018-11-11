@@ -1,0 +1,17 @@
+{
+  "name": "rwd-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^6.0.8",
+    "clear": "^0.1.0",
+    "express": "^4.16.3"
+  }
+}

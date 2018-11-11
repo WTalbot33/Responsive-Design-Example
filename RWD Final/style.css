@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+    box-sizing: inherit;
+    }
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+
+}
+.nav-link {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+@media (max-width: 767.99px) { 
+    background-color: paleturquoise
+ };
+@media (min-width: 768px) and (max-width: 991.99px) {
+    background-color: lightpink
+}
+@media (min-width: 992px) and (max-width: 1199.99px) { 
+    background-color: lightsteelblue
+}
+@media (min-width: 1200px) { 
+    background-color: lightgray 
+}
